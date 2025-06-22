@@ -1,0 +1,26 @@
+{
+  "name": "playwright-adactin-hotel-automation",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework",
+  "keywords": [
+    "playwright",
+    "typescript"
+  ],
+  "license": "ISC",
+  "author": "Brandon Chawane",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "ui": "npx playwright test --ui",
+    "record": "npx playwright codegen",
+    "report": "npx playwright show-report --port=1435"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
